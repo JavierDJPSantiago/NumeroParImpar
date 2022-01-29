@@ -19,7 +19,7 @@ public class NumeroImpar {
 		//con scanner: scanner detiene todo, hasta que se cumpla la acción seguira 
 		int numero1;
 		Scanner usuario = new Scanner (System.in);//objeto consola creado
-		System.out.println("Escribe un número: ")//un string para que el usuario sepa que hacer
+		System.out.println("Escribe un número: ");//un string para que el usuario sepa que hacer
 		numero1 = usuario.nextInt();//el valor de numero sera el valor que de el usuario, este se giardo en el objeto creado
 		
 		
